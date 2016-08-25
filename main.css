@@ -110,7 +110,7 @@ background-color: #D3D3D3;
 
 /***** SIGNUP FORM *****/
 #mc-embedded-subscribe-form {
-	background-color: #F8F8FF;
+	background-color: rgba(0,0,0,0);
 }
 
 /***** MEDIA QUERIES ******/
