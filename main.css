@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
+body {
+	background-color: #F8F8FF;
+	color: white;
+	font-family: "Lato";
+/*	font-family: 'Montserrat';
+*/}
+
+/*** BAR ****/
+.bar {
+	color: black;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+/**** LOGO ****/
+.title {
+	font-size: 2.7em;
+}
+
+/**** MAIN CONTAINER *****/
+.main-container {
+/*	background-color: #1E90FF;
+background-color: #D3D3D3;
+*/	padding-top: 8px;
+	padding-bottom: 8px;
+	color: white;
+	background-image: url("hero-opacity-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.date {
+	font-size: 1.2em;
+	margin-left: -15px;
+}
+
+.motto {
+	font-size: 3.1em;
+}
+
+.email-padding {
+	padding-bottom: 12px;
+}
+
+/******  SECOND CONTAINER *******/
+
+
+.second-container {
+	background-color: #ff1925;
+	padding: 25px 20%;
+	font-size: 1.1em;
+	border-bottom: 1px solid white;
+/*	margin-left: 20px;
+*/}
+
+.feature-title {
+	font-size: 1.5em;
+}
+
+/******  THIRD CONTAINER *******/
+.third-container {
+	background-color: #ff1925;
+	padding: 25px 20%;
+	font-size: 1.1em;
+	border-bottom: 1px solid white;
+	width: 100%;
+}
+
+.feature-title {
+	font-size: 1.5em;
+}
+
+/****** FOURTH CONTAINER *******/
+.fourth-container {
+	background-color: #ff1925;
+	padding: 25px 20%;
+	font-size: 1.1em;
+	width: 100%;
+	border-bottom: 1px solid white;
+/*	margin-right: 20px;
+*/
+/*	color: black;
+*/}
+
+.feature-title {
+	font-size: 1.5em;
+}
+
+/****** FOOTER *******/
+.footer {
+	color: grey;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+/***** Center *****/
+.center {
+	text-align: center;
+}
+
+/***** SIGNUP FORM *****/
+#mc-embedded-subscribe-form {
+	background-color: #F8F8FF;
+}
+
+/***** MEDIA QUERIES ******/
+@media (min-width: 600px) {
+	.title {
+		color: red;
+	}
+}
