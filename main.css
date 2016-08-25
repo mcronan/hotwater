@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
+html, body { overflow-x: hidden; }
+
 body {
 	background-color: #F2F2F2;
 	color: white;
 	font-family: "Lato";
-/*	font-family: 'Montserrat';
-*/}
+}
 
 /*** BAR ****/
 .bar {
@@ -22,12 +23,11 @@ body {
 
 /**** MAIN CONTAINER *****/
 .main-container {
-/*	background-color: #1E90FF;
-background-color: #D3D3D3;
-*/	padding-top: 8px;
+	padding-top: 8px;
 	padding-bottom: 8px;
 	color: white;
-	background-image: url("hero-opacity-2.jpg");
+/*	background-color: grey;
+*/	background-image: url("dail3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
@@ -52,8 +52,38 @@ background-color: #D3D3D3;
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-/*	margin-left: 20px;
-*/}
+	height: 220px;
+	background-image: url("dail3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/* HOVER EFFECT */
+.second-container:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.second-container:hover:after {
+    opacity: 1;
+}
+
+.second-container p {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
 
 .feature-title {
 	font-size: 1.5em;
@@ -65,7 +95,36 @@ background-color: #D3D3D3;
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-	width: 100%;
+	height: 220px;
+	background-image: url("hero-opacity-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.third-container:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.third-container:hover:after {
+    opacity: 1;
+}
+
+.third-container p {
+    color: #fff;
+    z-index: 1;
+    position: relative;
 }
 
 .feature-title {
@@ -79,10 +138,78 @@ background-color: #D3D3D3;
 	font-size: 1.1em;
 	width: 100%;
 	border-bottom: 1px solid white;
-/*	margin-right: 20px;
-*/
-/*	color: black;
-*/}
+	background-image: url("hero-opacity-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.fourth-container:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.fourth-container:hover:after {
+    opacity: 1;
+}
+
+.fourth-container p {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-title {
+	font-size: 1.5em;
+}
+
+/****** FIFTH CONTAINER *******/
+.fifth-container {
+	background-color: #ff1925;
+	padding: 25px 20%;
+	font-size: 1.1em;
+	width: 100%;
+	border-bottom: 1px solid white;
+	background-image: url("hero-opacity-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.fifth-container:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.fifth-container:hover:after {
+    opacity: 1;
+}
+
+.fifth-container p {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
 
 .feature-title {
 	font-size: 1.5em;
@@ -90,9 +217,11 @@ background-color: #D3D3D3;
 
 /****** FOOTER *******/
 .footer {
-	color: grey;
-	padding-top: 20px;
+	background-color: #2a2a2a;
+	padding-top: 140px;
 	padding-left: 15px;
+	height: 200px;
+	font-size: 1.5em;
 }
 
 /***** CENTRE & SPACER *****/
@@ -105,12 +234,24 @@ background-color: #D3D3D3;
 }
 
 .spacer-20 {
-	height: 40px;
+	height: 20px;
 }
+
+.spacer-10 {
+	height: 10px;
+}
+
 
 /***** SIGNUP FORM *****/
 #mc-embedded-subscribe-form {
 	background-color: rgba(0,0,0,0);
+}
+
+@media (max-width: 600px) {
+	.spacer-10 {
+		height:0px;
+	}
+
 }
 
 /***** MEDIA QUERIES ******/
