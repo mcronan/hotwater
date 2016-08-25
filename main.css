@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
 body {
-	background-color: #F8F8FF;
+	background-color: #F2F2F2;
 	color: white;
 	font-family: "Lato";
 /*	font-family: 'Montserrat';
@@ -47,8 +47,6 @@ background-color: #D3D3D3;
 }
 
 /******  SECOND CONTAINER *******/
-
-
 .second-container {
 	background-color: #ff1925;
 	padding: 25px 20%;
@@ -97,9 +95,17 @@ background-color: #D3D3D3;
 	padding-left: 15px;
 }
 
-/***** Center *****/
+/***** CENTRE & SPACER *****/
 .center {
 	text-align: center;
+}
+
+.spacer-40 {
+	height: 40px;
+}
+
+.spacer-20 {
+	height: 40px;
 }
 
 /***** SIGNUP FORM *****/
