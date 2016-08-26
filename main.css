@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: unisans;
-	src: url(unisansthin.otf);
+	src: url(UniSansThin.otf);
 }
 
 html, body { overflow-x: hidden; }
@@ -49,31 +49,27 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
-/*    background-color: white;
-*/}
+}
 
 .main-logo {
 	margin-left: 20px;
 }
 
-
-
 .date {
 	font-size: 1.2em;
-/*	margin-left: -15px;
-*/}
+}
 
 .motto {
 	font-size: 3.5em;
 	font-weight: normal;
-	font-family: 'unisans';
+	font-family: 'adequateextralight';
 
 }
 
 .email-padding {
 	padding-bottom: 12px;
 	font-weight:200;
-	font-family: 'unisans';
+	font-family: 'adequateextralight';
 	font-size: 1.6em;
 }
 
