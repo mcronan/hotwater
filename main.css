@@ -2,8 +2,8 @@
 @font-face {
 	font-family: adequateextralight;
 	src: url(adequate.extra-light.ttf);
-
 }
+
 @font-face {
 	font-family: unisans;
 	src: url(unisansthin.otf);
@@ -43,19 +43,23 @@ body {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	color: black;
-	background-image: url("hero-red.jpg");
+	background-image: url("hero-red-2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
 /*    background-color: white;
 */}
 
+.main-logo {
+	margin-left: 20px;
+}
+
 
 
 .date {
 	font-size: 1.2em;
-	margin-left: -15px;
-}
+/*	margin-left: -15px;
+*/}
 
 .motto {
 	font-size: 3.5em;
@@ -281,4 +285,15 @@ body {
 	.title {
 		color: red;
 	}
+
+	.center-block {
+		display: inline-block;
+		margin: 20px;
+	}
+
+	.date {
+		margin-left: 10px;
+	}
+
+
 }
