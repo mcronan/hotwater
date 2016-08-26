@@ -12,8 +12,10 @@
 html, body { overflow-x: hidden; }
 
 body {
-	background-color: #F2F2F2;
-	color: white;
+	background-color: white;
+
+/*	background-color: #F2F2F2;
+*/	color: white;
 	font-family: "Lato";
 }
 
@@ -278,6 +280,10 @@ body {
 		height: 0;
 	}
 
+	.main-container {
+		background-image: url("hero-red-mobile.png");
+	}
+
 }
 
 /***** MEDIA QUERIES ******/
@@ -294,6 +300,7 @@ body {
 	.date {
 		margin-left: 10px;
 	}
+
 
 
 }
