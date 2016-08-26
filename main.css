@@ -7,8 +7,8 @@
 @font-face {
 	font-family: unisans;
 	src: url(unisansthin.otf);
-
 }
+
 html, body { overflow-x: hidden; }
 
 body {
@@ -31,6 +31,13 @@ body {
 	font-size: 2.7em;
 }
 
+
+/*** WHAT TO EXPECT ****/
+.expect {
+	color: black;
+	font-family: 'adequateextralight';
+	font-weight: bold;
+}
 /**** MAIN CONTAINER *****/
 .main-container {
 	padding-top: 8px;
@@ -225,15 +232,19 @@ body {
 /****** FOOTER *******/
 .footer {
 	background-color: #2a2a2a;
-	padding-top: 140px;
-	padding-left: 15px;
-	height: 200px;
-	font-size: 1.5em;
+/*	padding-top: 140px;
+*//*	padding-left: 15px;
+*/	height: 200px;
+	font-size: 1em;
 }
 
 /***** CENTRE & SPACER *****/
 .center {
 	text-align: center;
+}
+
+.spacer-60 {
+	height: 60px;
 }
 
 .spacer-40 {
@@ -257,6 +268,10 @@ body {
 @media (max-width: 600px) {
 	.spacer-10 {
 		height:0px;
+	}
+
+	.spacer-40.bottom {
+		height: 0;
 	}
 
 }
