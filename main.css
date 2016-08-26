@@ -42,8 +42,8 @@ body {
 .main-container {
 	padding-top: 8px;
 	padding-bottom: 8px;
-	color: white;
-	background-image: url("hero-8.png");
+	color: black;
+	background-image: url("hero-red.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
