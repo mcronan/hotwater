@@ -48,12 +48,11 @@ body {
 
 /******  SECOND CONTAINER *******/
 .second-container {
-/*	background-color: #ff1925;
-*/	padding: 25px 20%;
+	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-	height: 220px;
-	background-image: url("dail4.jpg");
+/*	height: 220px;
+*/	background-image: url("dail4.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -66,7 +65,7 @@ body {
     height: 100%;
     width: 100%;
     opacity: .3;
-    background-color: rgba(38,114,38,1);
+    background-color: #1C348C;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -95,9 +94,9 @@ body {
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-	height: 220px;
-	background-image: url("opinions2.png");
-	background-size: cover;
+/*	height: 220px;
+*/	background-image: url("balance.svg");
+	background-size: 180px 150px;
 	background-repeat: no-repeat;
 	position: relative;
 }
@@ -107,8 +106,8 @@ body {
     display: block;
     height: 100%;
     width: 100%;
-    opacity: .5;
-	background-color: rgba(178,20,23, 1);
+    opacity: 0;
+	background-color: rgba(178,20,23,1);
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -191,7 +190,7 @@ body {
     top: 0;
     left: 0;
     position: absolute;
-    background: rgba(38,114,38,1);
+    background: #1C348C;
 
 }
 
