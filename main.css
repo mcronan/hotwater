@@ -77,11 +77,11 @@ body {
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-/*	height: 220px;
-*/	background-image: url("dail4.jpg");
-	background-size: cover;
+	background-image: url("theater-3.png");
 	background-repeat: no-repeat;
+	background-size: 180px 150px;
 	position: relative;
+	background-color: #1C348C;
 }
 
 /* HOVER EFFECT */
@@ -90,8 +90,8 @@ body {
     display: block;
     height: 100%;
     width: 100%;
-    opacity: .3;
-    background-color: #1C348C;
+    opacity: 0;
+	background-color: rgba(255,35,37,1);
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -120,8 +120,7 @@ body {
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-/*	height: 220px;
-*/	background-image: url("balance.svg");
+	background-image: url("balance.svg");
 	background-size: 180px 150px;
 	background-repeat: no-repeat;
 	position: relative;
@@ -133,7 +132,7 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-	background-color: rgba(178,20,23,1);
+	background-color: rgba(255,35,37,1);
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -171,7 +170,7 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-	background-color: rgba(178,20,23, 1);
+	background-color: rgba(255,35,37,1);
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -192,12 +191,12 @@ body {
 
 /****** FIFTH CONTAINER *******/
 .fifth-container {
-/*	background-color: blue;
-*/	padding: 25px 20%;
+	background-color: #1C348C;
+	padding: 25px 20%;
 	font-size: 1.1em;
 	width: 100%;
 	border-bottom: 1px solid white;
-	background-image: url("ra.jpg");
+	background-image: url("");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -209,15 +208,14 @@ body {
     display: block;
     height: 100%;
     width: 100%;
-    opacity: .5;
+    opacity: 0;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
     top: 0;
     left: 0;
     position: absolute;
-    background: #1C348C;
-
+	background-color: rgba(255,35,37,1);
 }
 
 .fifth-container:hover:after {
@@ -301,7 +299,7 @@ body {
 	}
 
 	.center.date {
-		margin-left: 25px;
+		margin-left: 30px;
 		text-align: left;
 	}
 
