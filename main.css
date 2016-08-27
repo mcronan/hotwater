@@ -63,7 +63,6 @@ body {
 	font-size: 3.5em;
 	font-weight: normal;
 	font-family: 'adequateextralight';
-
 }
 
 .email-padding {
@@ -277,9 +276,17 @@ body {
 	}
 
 	.main-container {
-		background-image: url("hero-red-mobile.png");
+		background-image: url("hero-red-mobile-2.png") !important;
+		color: white;
 	}
 
+	.image1 {
+		display: none;
+	}
+
+	.image2 {
+		display: block;
+	}
 }
 
 /***** MEDIA QUERIES ******/
@@ -290,13 +297,15 @@ body {
 
 	.center-block {
 		display: inline-block;
-		margin: 20px;
+		margin-left: 30px;
 	}
 
 	.date {
 		margin-left: 10px;
 	}
 
-
+	.image2 {
+		display: none;
+	}
 
 }
