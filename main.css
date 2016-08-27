@@ -276,6 +276,7 @@ body {
 	.main-container {
 		background-image: url("hero-red-mobile-2.png") !important;
 		color: white;
+		height: 550px;
 	}
 
 	.image1 {
@@ -292,6 +293,10 @@ body {
 
 	.expect {
 		padding-top: 6px;
+	}
+
+	.mc_embed_signup {
+		margin-bottom: 20px;
 	}
 }
 
