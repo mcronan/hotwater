@@ -285,6 +285,14 @@ body {
 	.image2 {
 		display: block;
 	}
+
+	.expect-spacer {
+		height: 15px;
+	}
+
+	.expect {
+		padding-top: 6px;
+	}
 }
 
 /***** MEDIA QUERIES ******/
