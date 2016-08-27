@@ -91,7 +91,7 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-	background-color: rgba(255,35,37,1);
+	background-color: #1C348C;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
