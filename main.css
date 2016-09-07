@@ -10,10 +10,9 @@
 }
 
 html, body { overflow-x: hidden; }
-
+ 
 body {
 	background-color: white;
-
 /*	background-color: #F2F2F2;
 */	color: white;
 	font-family: "Lato";
@@ -24,7 +23,7 @@ body {
 	color: black;
 	font-weight: bold;
 	padding-top: 8px;
-	padding-left: 22px;
+	padding-left: 2px;
 	padding-bottom: 8px;
 }
 
@@ -32,7 +31,6 @@ body {
 .title {
 	font-size: 2.7em;
 }
-
 
 /*** WHAT TO EXPECT ****/
 .expect {
@@ -72,26 +70,67 @@ body {
 	font-size: 1.6em;
 }
 
-/******  SECOND CONTAINER *******/
-.second-container {
+/******  FIRST CONTAINER *******/
+.first-container {
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-	background-image: url("theater-3.png");
+	background-image: url("hero-red-2.jpg");
 	background-repeat: no-repeat;
-	background-size: 180px 150px;
+	background-size: cover;
 	position: relative;
 	background-color: #1C348C;
 }
 
 /* HOVER EFFECT */
-.second-container:after {
+.first-container:after {
     content: "";
     display: block;
     height: 100%;
     width: 100%;
     opacity: 0;
 	background-color: #1C348C;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.first-container:hover:after {
+    opacity: 1;
+}
+
+.first-container p {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-title {
+	font-size: 2em;
+}
+
+/******  SECOND CONTAINER *******/
+.second-container {
+	background-color: #ff1925;
+	padding: 25px 20%;
+	font-size: 1.1em;
+	border-bottom: 1px solid white;
+	background-image: url("hero-red-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.second-container:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+	background-color: rgba(255,35,37,1);
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -110,18 +149,15 @@ body {
     position: relative;
 }
 
-.feature-title {
-	font-size: 2em;
-}
-
-/******  THIRD CONTAINER *******/
+/****** THIRD CONTAINER *******/
 .third-container {
 	background-color: #ff1925;
 	padding: 25px 20%;
 	font-size: 1.1em;
+	width: 100%;
 	border-bottom: 1px solid white;
-	background-image: url("balance.svg");
-	background-size: 180px 150px;
+	background-image: url("hero-red-2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
 }
@@ -151,14 +187,14 @@ body {
     position: relative;
 }
 
-/****** FOURTH CONTAINER *******/
+/****** FOURT CONTAINER *******/
 .fourth-container {
-	background-color: #ff1925;
+	background-color: #1C348C;
 	padding: 25px 20%;
 	font-size: 1.1em;
 	width: 100%;
 	border-bottom: 1px solid white;
-	background-image: url("debate.svg");
+	background-image: url("hero-red-2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -170,13 +206,13 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-	background-color: rgba(255,35,37,1);
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
     top: 0;
     left: 0;
     position: absolute;
+	background-color: #1C348C;
 }
 
 .fourth-container:hover:after {
@@ -184,45 +220,6 @@ body {
 }
 
 .fourth-container p {
-    color: #fff;
-    z-index: 1;
-    position: relative;
-}
-
-/****** FIFTH CONTAINER *******/
-.fifth-container {
-	background-color: #1C348C;
-	padding: 25px 20%;
-	font-size: 1.1em;
-	width: 100%;
-	border-bottom: 1px solid white;
-	background-image: url("");
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-
-}
-
-.fifth-container:after {
-    content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    transition: all 1s;
-    top: 0;
-    left: 0;
-    position: absolute;
-	background-color: rgba(255,35,37,1);
-}
-
-.fifth-container:hover:after {
-    opacity: 1;
-}
-
-.fifth-container p {
     color: #fff;
     z-index: 1;
     position: relative;
@@ -298,6 +295,52 @@ body {
 	.mc_embed_signup {
 		margin-bottom: 20px;
 	}
+
+	.first-container:after {
+	    content: "";
+	    display: block;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+		background-color: rgba(255,35,37,1);
+	    -moz-transition: all 1s;
+	    -webkit-transition: all 1s;
+	    transition: all 1s;
+	    top: 0;
+	    left: 0;
+	    position: absolute;
+	}
+
+	.second-container:after {
+	    content: "";
+	    display: block;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+		background-color: blue;
+	    -moz-transition: all 1s;
+	    -webkit-transition: all 1s;
+	    transition: all 1s;
+	    top: 0;
+	    left: 0;
+	    position: absolute;
+	}
+
+	.fourth-container:after {
+	    content: "";
+	    display: block;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+		background-color: blue;
+	    -moz-transition: all 1s;
+	    -webkit-transition: all 1s;
+	    transition: all 1s;
+	    top: 0;
+	    left: 0;
+	    position: absolute;
+	}
+
 }
 
 /***** MEDIA QUERIES ******/
