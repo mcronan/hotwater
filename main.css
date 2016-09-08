@@ -13,8 +13,8 @@ html, body { overflow-x: hidden; }
  
 body {
 	background-color: white;
-/*	background-color: #F2F2F2;
-*/	color: white;
+	background-color: #F2F2F2;
+	color: white;
 	font-family: "Lato";
 }
 
@@ -24,7 +24,7 @@ body {
 	font-weight: bold;
 	padding-top: 8px;
 	padding-left: 2px;
-	padding-bottom: 8px;
+	padding-bottom: 10px;
 }
 
 /**** LOGO ****/
@@ -75,7 +75,7 @@ body {
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-	background-image: url("hero-pink-3.png");
+	background-image: url("hero-pink-5.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -90,9 +90,8 @@ body {
     width: 100%;
     opacity: 0;
     background-color: rgb(255,0,255);
-
 /*	background-color: #1C348C;
-*/    -moz-transition: all 1s;
+*/  -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
     top: 0;
@@ -120,7 +119,7 @@ body {
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
-	background-image: url("hero-pink-3.png");
+	background-image: url("hero-pink-5.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -132,9 +131,9 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-    background-color: rgb(255,0,255);
+    background-color: #FFCE19;
 /*	background-color: rgba(255,35,37,1);
-*/    -moz-transition: all 1s;
+*/  -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
     top: 0;
@@ -159,7 +158,7 @@ body {
 	font-size: 1.1em;
 	width: 100%;
 	border-bottom: 1px solid white;
-	background-image: url("hero-red-2.jpg");
+	background-image: url("hero-pink-5.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -171,7 +170,7 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-	background-color: rgba(255,35,37,1);
+	background-color: #14CCB0;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -197,7 +196,7 @@ body {
 	font-size: 1.1em;
 	width: 100%;
 	border-bottom: 1px solid white;
-	background-image: url("hero-red-2.jpg");
+	background-image: url("hero-pink-5.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -215,7 +214,7 @@ body {
     top: 0;
     left: 0;
     position: absolute;
-	background-color: #1C348C;
+	background-color: #FF7519;
 }
 
 .fourth-container:hover:after {
@@ -261,15 +260,22 @@ body {
 
 /***** SIGNUP FORM *****/
 #mce-EMAIL {
-	height: 30px;
-	width: 158px;
+	height: 40px;
+	width: 350px;
+	color: black;
+	margin-right: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 8px;
+	padding-left: 9px;
 }
 
 #mc-embedded-subscribe {
 	background-color: rgb(255,0,255);
 	border: none;
-	height: 40px;
-	width: 160px;
+	height: 42px;
+	width: 350px;
+	border-radius: 5px;
 }
 
 /****** MEDIA QUERIES ******/
@@ -308,49 +314,8 @@ body {
 		margin-bottom: 20px;
 	}
 
-	.first-container:after {
-	    content: "";
-	    display: block;
-	    height: 100%;
-	    width: 100%;
-	    opacity: 0;
-		background-color: rgba(255,35,37,1);
-	    -moz-transition: all 1s;
-	    -webkit-transition: all 1s;
-	    transition: all 1s;
-	    top: 0;
-	    left: 0;
-	    position: absolute;
-	}
-
-	.second-container:after {
-	    content: "";
-	    display: block;
-	    height: 100%;
-	    width: 100%;
-	    opacity: 0;
-		background-color: blue;
-	    -moz-transition: all 1s;
-	    -webkit-transition: all 1s;
-	    transition: all 1s;
-	    top: 0;
-	    left: 0;
-	    position: absolute;
-	}
-
-	.fourth-container:after {
-	    content: "";
-	    display: block;
-	    height: 100%;
-	    width: 100%;
-	    opacity: 0;
-		background-color: blue;
-	    -moz-transition: all 1s;
-	    -webkit-transition: all 1s;
-	    transition: all 1s;
-	    top: 0;
-	    left: 0;
-	    position: absolute;
+	#mc_embed_signup {
+		text-align: center;
 	}
 
 }
