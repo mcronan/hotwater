@@ -264,14 +264,15 @@ body {
 
 /***** SIGNUP FORM *****/
 #mce-EMAIL {
-	height: 40px;
-	width: 350px;
 	color: black;
 	margin-right: 10px;
 	border-radius: 5px;
 	border: none;
 	margin-bottom: 8px;
 	padding-left: 9px;
+	height: 42px;
+	width: 350px;
+
 }
 
 #mc-embedded-subscribe {
@@ -284,6 +285,20 @@ body {
 
 /****** MEDIA QUERIES ******/
 @media (max-width: 600px) {
+
+	.motto,.discount {
+		text-align: center;
+	}
+
+	#mce-EMAIL {
+		width: 300px;
+		margin-right: 3px;
+	}
+
+	#mc-embedded-subscribe {
+		width: 300px;
+	}
+
 	.spacer-10 {
 		height:0px;
 	}
@@ -293,13 +308,7 @@ body {
 	}
 
 	.main-container {
-/*		background-image: url("hero-red-mobile-2.png") !important;
-*/		color: white;
-		height: 550px;
-	}
-
-	.image1 {
-		display: none;
+		height: 650px;
 	}
 
 	.image2 {
