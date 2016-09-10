@@ -9,17 +9,17 @@ $(document).ready(function() {
 			console.log("hello");
 		}
 
-		if($(this).scrollTop()> 850) {
+		if($(this).scrollTop()> 900) {
 			$('.second-container').css("background-image", "none")
 			console.log("hello again");
 		}
 
-		if($(this).scrollTop()> 1150) {
+		if($(this).scrollTop()> 1250) {
 			$('.third-container').css("background-image", "none")
 			console.log("hello again");
 		}
 
-		if($(this).scrollTop()> 1500) {
+		if($(this).scrollTop()> 1400) {
 			$('.fourth-container').css("background-image", "none")
 			console.log("hello again");
 		}
