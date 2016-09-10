@@ -6,13 +6,13 @@ $(document).ready(function() {
 		
 		// FIRST CONTAINER
 		// Make head disappear
-		if($(this).scrollTop() > 670 && $(this).scrollTop() < 900) {
+		if($(this).scrollTop() > 670 && $(this).scrollTop() < 860) {
 			$('.first-container').css("background-image", "none")
 			console.log("show");
 		}
 
 		// Make head re-appear
-		if($(this).scrollTop() < 670 || $(this).scrollTop() > 900) {
+		if($(this).scrollTop() < 670 || $(this).scrollTop() > 860) {
 			$('.first-container').css("background-image", "url('head-5.png')")
 			console.log("show");
 		}
