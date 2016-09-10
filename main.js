@@ -19,13 +19,13 @@ $(document).ready(function() {
 
 		// SECOND CONTAINER
 		// Make head disappear
-		if($(this).scrollTop()> 900) {
+		if($(this).scrollTop()> 860) {
 			$('.second-container').css("background-image", "none")
 			console.log("hello again");
 		}
 
 		// Make head re-appear
-		if($(this).scrollTop() < 900 || $(this).scrollTop() > 1250) {
+		if($(this).scrollTop() < 860 || $(this).scrollTop() > 1250) {
 			$('.second-container').css("background-image", "url('head-5.png')")
 			console.log("show");
 		}
