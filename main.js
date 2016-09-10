@@ -4,7 +4,7 @@ $(document).ready(function() {
 		var top = $('.first-container').height();
 		var secondTop = $('.first-container').height();
 		
-		if($(this).scrollTop() > 550) {
+		if($(this).scrollTop() > 670) {
 			$('.first-container').css("background-image", "none")
 			console.log("hello");
 		}
