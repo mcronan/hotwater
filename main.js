@@ -8,7 +8,7 @@ $(document).ready(function() {
 		// Make head disappear
 		if($(this).scrollTop() > 670 && $(this).scrollTop() < 900) {
 			$('.first-container').css("background-image", "none")
-			console.log("hello");
+			console.log("show");
 		}
 
 		// Make head re-appear
