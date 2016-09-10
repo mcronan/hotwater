@@ -19,7 +19,7 @@ $(document).ready(function() {
 			console.log("hello again");
 		}
 
-		if($(this).scrollTop()> 1400) {
+		if($(this).scrollTop()> 1450) {
 			$('.fourth-container').css("background-image", "none")
 			console.log("hello again");
 		}
