@@ -31,7 +31,10 @@ $(document).ready(function() {
 		        $('.third-container').css("background-image", "none")
 		    }
 		    else {
-		    	$('.third-container').css("background-image", "url('head-5.png')")
+		    	$('.third-container').css({
+		    		"background-image" : "url('head-5.png')"
+		  
+		    	})
 		    }
 		  
 		});
@@ -42,7 +45,9 @@ $(document).ready(function() {
 		        $('.fourth-container').css("background-image", "none")
 		    }
 		    else {
-		    	$('.fourth-container').css("background-image", "url('head-5.png')")
+		    	$('.fourth-container').css({
+		    		"background-image" : "url('head-5.png')"
+		    	})
 		    }
 		  
 		});
