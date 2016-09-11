@@ -1,61 +1,51 @@
 $(document).ready(function() {
+
+		$(window).scroll(function() {
+		    var height = $(window).scrollTop();
+
+		    if(height  > 600 && height < 859) {
+		        $('.first-container').css("background-image", "none")
+		    }
+		    else {
+		    	$('.first-container').css("background-image", "url('head-5.png')")
+		    }
+		  
+		});
+
+
+		$(window).scroll(function() {
+		    var height = $(window).scrollTop();
+
+		    if(height  > 860 && height < 1200) {
+		        $('.second-container').css("background-image", "none")
+		    }
+		    else {
+		    	$('.second-container-container').css("background-image", "url('head-5.png')")
+		    }
+		  
+		});
+
+		$(window).scroll(function() {
+		    var height = $(window).scrollTop();
+		    if(height  > 1200 && height < 1449) {
+		        $('.third-container').css("background-image", "none")
+		    }
+		    else {
+		    	$('.third-container').css("background-image", "url('head-5.png')")
+		    }
+		  
+		});
+
+		$(window).scroll(function() {
+		    var height = $(window).scrollTop();
+		    if(height  > 1450 && height < 1700) {
+		        $('.fourth-container').css("background-image", "none")
+		    }
+		    else {
+		    	$('.fourth-container').css("background-image", "url('head-5.png')")
+		    }
+		  
+		});
 	
-	$(window).scroll(function() {
-		var top = $('.first-container').height();
-		var secondTop = $('.first-container').height();
-		
-		// FIRST CONTAINER
-		// Make head disappear
-		if($(this).scrollTop() > 670 && $(this).scrollTop() < 860) {
-			$('.first-container').css("background-image", "none")
-			console.log("show");
-		}
-
-		// Make head re-appear
-		if($(this).scrollTop() < 670 || $(this).scrollTop() > 860) {
-			$('.first-container').css("background-image", "url('head-5.png')")
-			console.log("show");
-		}
-
-		// SECOND CONTAINER
-		// Make head disappear
-		if($(this).scrollTop()> 860) {
-			$('.second-container').css("background-image", "none")
-			console.log("hello again");
-		}
-
-		// Make head re-appear
-		if($(this).scrollTop() < 860 || $(this).scrollTop() > 1250) {
-			$('.second-container').css("background-image", "url('head-5.png')")
-			console.log("show");
-		}
-
-		// THIRD CONTAINER
-		// Make head disappear		
-		if($(this).scrollTop()> 1250) {
-			$('.third-container').css("background-image", "none")
-			console.log("hello again");
-		}
-
-		// Make head re-appear
-		if($(this).scrollTop() < 1250 || $(this).scrollTop() > 1450) {
-			$('.third-container').css("background-image", "url('head-5.png')")
-			console.log("show");
-		}
-
-		// FOURTH CONTAINER
-		// Make head disappear
-		if($(this).scrollTop()> 1450) {
-			$('.fourth-container').css("background-image", "none")
-			console.log("hello again");
-		}
-
-		// Make head re-appear
-		if($(this).scrollTop() < 1450) {
-			$('.fourth-container').css("background-image", "url('head-5.png')")
-			console.log("show");
-		}
-	})
-
 
 });

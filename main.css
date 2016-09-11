@@ -50,12 +50,12 @@ body {
 	background-repeat: no-repeat;
 	height: 500px;
    	background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
-);
+	  45deg,
+	  #606dbc,
+	  #606dbc 10px,
+	  #465298 10px,
+	  #465298 20px
+	);
 }
 
 .main-logo {
@@ -86,10 +86,8 @@ body {
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
 	background-repeat: no-repeat;
-/*	background-size: cover;
-*/	position: relative;
+	position: relative;
     background-color: rgb(255,0,255);
-
 }
 
 /* HOVER EFFECT */
@@ -100,8 +98,7 @@ body {
     width: 100%;
     opacity: 0;
     background-color: rgb(255,0,255);
-/*	background-color: #1C348C;
-*/  -moz-transition: all 1s;
+    -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
     top: 0;
