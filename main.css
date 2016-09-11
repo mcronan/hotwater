@@ -38,15 +38,24 @@ body {
 	font-family: 'adequateextralight';
 	font-weight: bold;
 }
+
 /**** MAIN CONTAINER *****/
 .main-container {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	color: white;
-	background-image: url("hero-pink-3.png");
-	background-size: cover;
+	background-color: grey;
+/*	background-image: url("hero-pink-3.png");
+*/	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
+   	background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
 }
 
 .main-logo {
@@ -80,6 +89,7 @@ body {
 /*	background-size: cover;
 */	position: relative;
     background-color: rgb(255,0,255);
+
 }
 
 /* HOVER EFFECT */
@@ -115,14 +125,11 @@ body {
 
 /******  SECOND CONTAINER *******/
 .second-container {
-/*	background-color: #ff1925;
-*/	background-color: #FFCE19;
+	background-color: #FFCE19;
 	padding: 25px 20%;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
-/*	background-size: cover;
-*/	background-repeat: no-repeat;
 	position: relative;
 }
 
