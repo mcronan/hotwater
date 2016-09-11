@@ -20,14 +20,14 @@ $(document).ready(function() {
 		        $('.second-container').css("background-image", "none")
 		    }
 		    else {
-		    	$('.second-container-container').css("background-image", "url('head-5.png')")
+		    	$('.second-container').css("background-image", "url('head-5.png')")
 		    }
 		  
 		});
 
 		$(window).scroll(function() {
 		    var height = $(window).scrollTop();
-		    if(height  > 1200 && height < 1449) {
+		    if(height  > 1170 && height < 1449) {
 		        $('.third-container').css("background-image", "none")
 		    }
 		    else {
