@@ -62,11 +62,10 @@ body {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	color: white;
-	height: 500px;
 	background-color: grey;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 800px;
+	height: 500px;
    	background: repeating-linear-gradient(
 	  45deg,
 	  #661E8C,
