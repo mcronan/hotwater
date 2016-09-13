@@ -228,8 +228,8 @@ body {
 /*	background-size: 150px 150px;
 */	background-repeat: no-repeat;
 	position: relative;
-/*	height: 270px;
-*/}
+	height: 270px;
+}
 
 .fourth-container:after {
     content: "";
@@ -402,9 +402,7 @@ body {
 }
 
 @media (min-width: 840px) {
-	.first-container, .second-container, .third-container, .fourth-container: {
-		height: 900px !important;
-	}
+	
 	.spacer-10-middle {
 		height: 10px;
 	}
