@@ -76,6 +76,7 @@ body {
 }
 
 .main-container-discount {
+	height: 500px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	color: white;
