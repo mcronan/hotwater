@@ -62,9 +62,9 @@ body {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	color: white;
+	height: 500px;
 	background-color: grey;
-/*	background-image: url("hero-pink-3.png");
-*/	background-size: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 800px;
    	background: repeating-linear-gradient(
@@ -74,7 +74,23 @@ body {
 	  #7823A6 10px,
 	  #7823A6 20px
 	);
-	
+}
+
+.main-container-discount {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: white;
+	background-color: grey;
+	background-size: cover;
+	background-repeat: no-repeat;
+   	background: repeating-linear-gradient(
+	  45deg,
+	  #099143,
+	  #099143 10px,
+	  #14B163 10px,
+	  #14B163 20px
+	);
+
 }
 
 .main-logo {
@@ -394,9 +410,8 @@ body {
 		height: 220px;
 	}
 	.spacer-10-middle {
-		height: 10px;
+		height: 0px;
 	}
-
 
 }
 
