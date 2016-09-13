@@ -361,7 +361,7 @@ body {
 		text-align: center;
 	}
 	.first-container, .second-container, .third-container, .fourth-container: {
-		height: 270px;
+		height: 200px;
 	}
 
 	.spacer-10-middle {
@@ -405,6 +405,10 @@ body {
 	
 	.spacer-10-middle {
 		height: 10px;
+	}
+
+	.first-container, .second-container, .third-container, .fourth-container: {
+		height: 270px;
 	}
 
 }
