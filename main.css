@@ -225,10 +225,8 @@ body {
 	width: 100%;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
-/*	background-size: 150px 150px;
-*/	background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	position: relative;
-	height: 270px;
 }
 
 .fourth-container:after {
@@ -360,6 +358,7 @@ body {
 	#mc_embed_signup {
 		text-align: center;
 	}
+
 	.first-container, .second-container, .third-container, .fourth-container: {
 		height: 200px;
 	}
@@ -392,10 +391,10 @@ body {
 	}
 
 	.first-container, .second-container, .third-container, .fourth-container: {
-		height: 200px;
+		height: 220px;
 	}
 	.spacer-10-middle {
-		height: 0px;
+		height: 10px;
 	}
 
 
@@ -408,7 +407,7 @@ body {
 	}
 
 	.first-container, .second-container, .third-container, .fourth-container: {
-		height: 270px;
+		height: 280px;
 	}
 
 }
