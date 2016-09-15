@@ -418,6 +418,10 @@ body {
 	.spacer-10-middle {
 		height: 0px;
 	}
+
+	.spacer-40.bottom {
+		height: 40px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -429,7 +433,10 @@ body {
 	.first-container, .second-container, .third-container, .fourth-container {
 		height: 305px;
 		padding: 25px 10%;
+	}
 
+	.spacer-40.bottom {
+		height: 40px;
 	}
 
 }
@@ -438,7 +445,9 @@ body {
 	.first-container, .second-container, .third-container, .fourth-container {
 		height: 305px;
 		padding: 25px 20%;
-
+	}
+	.spacer-40.bottom {
+		height: 40px;
 	}
 
 }
@@ -449,7 +458,10 @@ body {
 	.first-container, .second-container, .third-container, .fourth-container {
 		height: 240px;
 		padding: 25px 20%;
+	}
 
+	.spacer-40.bottom {
+		height: 40px;
 	}
 
 
