@@ -121,7 +121,6 @@ body {
 .first-container {
 	padding: 25px 20%;
 	height: 250px;
-	font-size: 1.1em;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
 	background-repeat: no-repeat;
@@ -164,7 +163,7 @@ body {
 .second-container {
 	background-color: #FFCE19;
 	padding: 25px 20%;
-	font-size: 1.1em;
+    font-size: 1.15em;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
 	position: relative;
@@ -202,7 +201,7 @@ body {
 .third-container {
 	background-color: #14CCB0;
 	padding: 25px 20%;
-	font-size: 1.1em;
+    font-size: 1.15em;
 	width: 100%;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
@@ -240,7 +239,7 @@ body {
 .fourth-container {
 	background-color: #FF7519;
 	padding: 25px 20%;
-	font-size: 1.1em;
+    font-size: 1.15em;
 	width: 100%;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
