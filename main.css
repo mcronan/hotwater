@@ -120,7 +120,7 @@ body {
 /******  FIRST CONTAINER *******/
 .first-container {
 	padding: 25px 20%;
-	height: 260px;
+	height: 250px;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
@@ -424,7 +424,16 @@ body {
 	}
 
 	.first-container {
-		height: 300px;
+		height: 310px;
+	}
+
+}
+
+@media (min-width: 1150px) {
+	
+
+	.first-container {
+		height: 240px;
 	}
 
 }
