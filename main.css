@@ -126,7 +126,7 @@ body {
 	background-repeat: no-repeat;
 	position: relative;
     background-color: rgb(255,0,255);
-    font-size: 1.15em;
+    font-size: 1.1em;
 }
 
 /* HOVER EFFECT */
@@ -163,7 +163,7 @@ body {
 .second-container {
 	background-color: #FFCE19;
 	padding: 25px 20%;
-    font-size: 1.15em;
+    font-size: 1.1em;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
 	position: relative;
@@ -201,7 +201,7 @@ body {
 .third-container {
 	background-color: #14CCB0;
 	padding: 25px 20%;
-    font-size: 1.15em;
+    font-size: 1.1em;
 	width: 100%;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
@@ -239,7 +239,7 @@ body {
 .fourth-container {
 	background-color: #FF7519;
 	padding: 25px 20%;
-    font-size: 1.15em;
+    font-size: 1.1em;
 	width: 100%;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
@@ -380,6 +380,8 @@ body {
 
 	.first-container, .second-container, .third-container, .fourth-container {
 		height: 300px;
+		font-size: 1.2em;
+
 	}
 
 	.spacer-10-middle {
