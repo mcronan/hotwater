@@ -434,6 +434,15 @@ body {
 
 }
 
+@media(min-width: 900px) {
+	.first-container, .second-container, .third-container, .fourth-container {
+		height: 305px;
+		padding: 25px 20%;
+
+	}
+
+}
+
 @media (min-width: 1220px) {
 	
 
