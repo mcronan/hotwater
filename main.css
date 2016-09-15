@@ -422,6 +422,12 @@ body {
 	.spacer-40.bottom {
 		height: 0px;
 	}
+
+	#mc_embed_signup {
+		text-align: center;
+	}
+
+
 }
 
 @media (min-width: 768px) {
