@@ -428,6 +428,8 @@ body {
 
 	.first-container, .second-container, .third-container, .fourth-container {
 		height: 320px;
+		padding: 25px 10%;
+
 	}
 
 }
