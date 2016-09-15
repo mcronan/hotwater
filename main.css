@@ -396,12 +396,12 @@ body {
 	.title {
 		color: red;
 	}
-
-	/*.center-block {
+/*
+	.center-block {
 		display: inline-block;
 		margin-left: 30px;
 	}
-*//*
+
 	.center.date {
 		margin-left: 30px;
 		text-align: left;
@@ -449,6 +449,16 @@ body {
 		height: 40px;
 	}
 
+	.center-block {
+		display: inline-block;
+		margin-left: 30px;
+	}
+
+	.center.date {
+		margin-left: 30px;
+		text-align: left;
+	}
+
 }
 
 @media(min-width: 900px) {
@@ -458,6 +468,16 @@ body {
 	}
 	.spacer-40.bottom {
 		height: 40px;
+	}
+
+	.center-block {
+		display: inline-block;
+		margin-left: 30px;
+	}
+
+	.center.date {
+		margin-left: 30px;
+		text-align: left;
 	}
 
 }
@@ -472,6 +492,17 @@ body {
 
 	.spacer-40.bottom {
 		height: 40px;
+	}
+
+	
+	.center-block {
+		display: inline-block;
+		margin-left: 30px;
+	}
+
+	.center.date {
+		margin-left: 30px;
+		text-align: left;
 	}
 
 
