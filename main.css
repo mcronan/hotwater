@@ -120,6 +120,7 @@ body {
 /******  FIRST CONTAINER *******/
 .first-container {
 	padding: 25px 20%;
+	height: 270px;
 	font-size: 1.1em;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
@@ -371,8 +372,12 @@ body {
 		text-align: center;
 	}
 
-	.first-container, .second-container, .third-container, .fourth-container: {
+	/*.first-container, .second-container, .third-container, .fourth-container: {
 		height: 200px;
+	}*/
+
+	.first-container {
+		height: 300px;
 	}
 
 	.spacer-10-middle {
@@ -402,8 +407,8 @@ body {
 		display: none;
 	}
 
-	.first-container, .second-container, .third-container, .fourth-container: {
-		height: 220px;
+	.first-container {
+		height: 200px;
 	}
 
 	.spacer-10-middle {
@@ -411,14 +416,14 @@ body {
 	}
 }
 
-@media (min-width: 840px) {
+@media (min-width: 820px) {
 	
 	.spacer-10-middle {
 		height: 10px;
 	}
 
-	.first-container, .second-container, .third-container, .fourth-container: {
-		height: 280px;
+	.first-container {
+		height: 300px;
 	}
 
 }
