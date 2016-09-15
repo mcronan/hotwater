@@ -427,7 +427,7 @@ body {
 	}
 
 	.first-container, .second-container, .third-container, .fourth-container {
-		height: 320px;
+		height: 305px;
 		padding: 25px 10%;
 
 	}
@@ -439,6 +439,10 @@ body {
 
 	.first-container, .second-container, .third-container, .fourth-container {
 		height: 240px;
+		padding: 25px 20%;
+
 	}
+
+
 
 }
