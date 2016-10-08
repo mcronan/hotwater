@@ -166,6 +166,7 @@ body {
     font-size: 1.1em;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
+	background-repeat: no-repeat;
 	position: relative;
 	height: 250px;
 
@@ -205,6 +206,7 @@ body {
 	width: 100%;
 	border-bottom: 1px solid white;
 	background-image: url("head-5.png");
+	background-repeat: no-repeat;
 	position: relative;
 	height: 250px;
 
