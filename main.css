@@ -91,18 +91,16 @@ body {
 	);
 }
 
-.main-logo {
-	margin-left: 20px;
-}
-
 .date {
 	font-size: 1.2em;
+	text-align: center
 }
 
 .motto {
 	font-size: 3.5em;
 	font-weight: normal;
 	font-family: 'adequateextralight';
+	text-align: center;
 }
 
 .motto-confirm {
@@ -110,6 +108,17 @@ body {
 	font-weight: normal;
 	font-family: 'adequateextralight';
 }
+
+.motto,.discount {
+		text-align: center;
+	}
+
+/*****  Email Form ******/
+
+#mc_embed_signup {
+		text-align: center;
+	}
+
 .email-padding {
 	padding-bottom: 12px;
 	font-weight:200;
@@ -424,14 +433,7 @@ body {
 	.spacer-40.bottom {
 		height: 0px;
 	}
-
-	#mc_embed_signup {
-		text-align: center;
-	}
-
-	.motto,.discount {
-		text-align: center;
-	}
+	
 
 
 }
@@ -451,19 +453,15 @@ body {
 		height: 40px;
 	}
 
-	.center-block {
+	/*.center-block {
 		display: inline-block;
 		margin-left: 30px;
 	}
 
 	.center.date {
 		margin-left: 30px;
-		text-align: left;
-	}
-
-	.motto,.discount {
-		text-align: left;
-	}
+		text-align: center;
+	}*/
 
 }
 
@@ -476,19 +474,11 @@ body {
 		height: 40px;
 	}
 
-	.center-block {
+	/*.center-block {
 		display: inline-block;
 		margin-left: 30px;
-	}
+	}*/
 
-	.center.date {
-		margin-left: 30px;
-		text-align: left;
-	}
-
-	.motto,.discount {
-		text-align: left;
-	}
 
 }
 
@@ -504,21 +494,12 @@ body {
 		height: 40px;
 	}
 
-
-	.center-block {
+	/*.center-block {
 		display: inline-block;
 		margin-left: 30px;
-	}
+	}*/
 
-	.center.date {
-		margin-left: 30px;
-		text-align: left;
-	}
-
-	.motto,.discount {
-		text-align: left;
-	}
-
+	
 
 
 }
