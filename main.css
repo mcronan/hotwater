@@ -454,13 +454,12 @@ body {
 	}
 
 	.center-block {
-		display: inline-block;
 		margin-left: 30px;
 	}
 
 	.center.date {
-/*		margin-left: 30px;
-*/		text-align: center;
+
+		text-align: center;
 	}
 
 	.motto,.discount {
@@ -478,10 +477,7 @@ body {
 		height: 40px;
 	}
 
-	/*.center-block {
-		display: inline-block;
-		margin-left: 30px;
-	}*/
+
 
 	.motto,.discount {
 		text-align: center;
@@ -489,8 +485,7 @@ body {
 
 
 	.center.date {
-/*		margin-left: 30px;
-*/		text-align: center;
+		text-align: center;
 	}
 
 
@@ -508,16 +503,12 @@ body {
 		height: 40px;
 	}
 
-	/*.center-block {
-		display: inline-block;
-		margin-left: 30px;
-	}*/
 
 	.motto,.discount {
 		text-align: center;
 	}
 
-	
+
 	.center.date {
 /*		margin-left: 30px;
 */		text-align: center;
