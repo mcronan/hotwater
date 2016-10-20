@@ -453,15 +453,19 @@ body {
 		height: 40px;
 	}
 
-	/*.center-block {
+	.center-block {
 		display: inline-block;
 		margin-left: 30px;
 	}
 
 	.center.date {
-		margin-left: 30px;
+/*		margin-left: 30px;
+*/		text-align: center;
+	}
+
+	.motto,.discount {
 		text-align: center;
-	}*/
+	}
 
 }
 
@@ -478,6 +482,16 @@ body {
 		display: inline-block;
 		margin-left: 30px;
 	}*/
+
+	.motto,.discount {
+		text-align: center;
+	}
+
+
+	.center.date {
+/*		margin-left: 30px;
+*/		text-align: center;
+	}
 
 
 }
@@ -498,6 +512,16 @@ body {
 		display: inline-block;
 		margin-left: 30px;
 	}*/
+
+	.motto,.discount {
+		text-align: center;
+	}
+
+	
+	.center.date {
+/*		margin-left: 30px;
+*/		text-align: center;
+	}
 
 	
 
