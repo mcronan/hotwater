@@ -314,6 +314,12 @@ body {
 }
 
 /**** DEBATES INCLUDE ****/
+
+
+.debate-container {
+	background: #fff;
+}
+
 .debates {
 	font-family: sans-serif;
 /*	font-weight: bold;
